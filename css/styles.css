@@ -4,6 +4,7 @@
     padding: 0%;
     box-sizing: border-box;
 }
+/*index inicio*/
 .grid-container{
     width: 80%;
     margin: 0 auto;
@@ -121,4 +122,32 @@ aside img{
     .menu{
         flex-direction: column;
     }
+}
+/*index fin*/
+/*galeria inicio*/
+.grid-galeria{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 13rem 8rem auto;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "main main aside"
+    "footer footer footer";
+}
+.galeria{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.galeria div img{
+    width: 20rem;
+    height: 20rem;
+    border: solid grey;
+    padding: 2rem;
+    margin: 2rem;
 }
