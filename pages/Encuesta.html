@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Encuesta</title>
+</head>
+<body>
+    <div class="general">
+        <header id="menu">
+            <nav class="display">
+                <a href="../index.html">Inicio</a>
+                <a href="Lore.html">Lore</a>
+                <a href="Galeria.html">Galeria</a>
+                <a href="Codice.html">Codice</a>
+                <a href="Encuesta.html">Encuesta</a>
+            </nav>
+        </header>
+    
+        <hr>
+    
+        <Section class="fondo-blanco">   
+            <h1 class="titulo">Quieres pertenecer al olimpo o inframundo?</h1>
+                <p>En el universo de Hades nos encontramos con muchisimos personajes muy variopintos,
+                    pasando desde los dioses mas poderosos como el mismisimo Zeus y Hades hasta una 
+                    simpatica mucama gorgona "Dusa". 
+                </p>
+                <p>Todos ellos con historias unicas e igual de atrapantes</p>
+                <p>El objetivo de esta encuesta es mera curiosidad para saber que personaje y/o 
+                    historia es tu favorita como tu modo de jugar</p>
+        </Section>
+    
+        <Section>
+            <fieldset class="datos ceparacion">
+                <legend>Datos personales</legend>
+                <Form>
+    
+                    <div>
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" id="Nombre" placeholder="German">
+                    </div>
+
+                    <div>
+                        <label for="Apellido">Apellido</label>
+                        <input type="text" id="Apellido" placeholder="Sack">
+                    </div>
+    
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="email@gmail.com">
+                    </div>
+
+                    <div>
+                        <label for="Genero">Genero</label>
+                        <select id="Genero">
+                            <option>Hombre</option>
+                            <option>Mujer</option>
+                            <option>Otro</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset class="datos">
+                    <legend>Quien es tu personaje favorito?</legend>
+                    <h3>Prefieres el Olimpo o los Ctonicos?</h3>
+                    <div>
+                        <label for="Olimpo">Olimpo</label>
+                        <input type="radio" name="zona" id="Olimpo">
+
+                        <label for="Ctonico">Ctonico</label>
+                        <input type="radio" name="zona" id="Ctonico">
+                    </div>
+
+                    <div>
+                    <h3>Arma de tu preferencia</h3>
+                        <label for="espada">Espada</label>
+                        <input type="checkbox" id="espada">
+
+                        <label for="lanza">Lanza</label>
+                        <input type="checkbox" id="lanza">
+
+                        <label for="arco">Arco</label>
+                        <input type="checkbox" id="arco">
+
+                        <label for="escudo">Escudo</label>
+                        <input type="checkbox" id="escudo">
+
+                        <label for="guantes">Guantes</label>
+                        <input type="checkbox" id="guantes">
+
+                        <label for="pistola">Pistola</label>
+                        <input type="checkbox" id="pistola">
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+                </Form>
+        </Section>
+    </div>
+    
+
+</body>
+</html>
