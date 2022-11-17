@@ -125,18 +125,6 @@ aside img{
 }
 /*index fin*/
 /*galeria inicio*/
-.grid-galeria{
-    width: 80%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 13rem 8rem auto;
-    grid-template-areas: 
-    "header header header"
-    "nav nav nav"
-    "main main aside"
-    "footer footer footer";
-}
 .galeria{
     display: flex;
     flex-direction: row;
